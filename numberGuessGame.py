@@ -1,3 +1,6 @@
+# This is a number guessing game. You have 7 tries to figure out the number the computer had in mind.
+# The only clues you get are that if your number is higher than the intended number, the computer will tell you; also, the same if your number is lower.
+# this is my very first program in python, sooo be nice lol
 import random, easygui
 
 secret = random.randint(1, 99)
